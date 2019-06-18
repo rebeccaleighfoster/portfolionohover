@@ -1,0 +1,92 @@
+body, html {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+ }
+
+.intro {
+  text-align: center;
+  font-family: "Dancing Script";
+  font-size: 18px;
+  background-color: rgb(32, 51, 56);
+  color: rgb(255,255,255);
+  opacity: .95;
+  padding: 2px;
+}
+
+body{
+  background-color: rgb(166, 166, 166);
+}
+
+h3 {
+  font-family: "EB Garamond";
+  font-variant: small-caps;
+  text-decoration: underline;
+  text-align:center;
+  margin: 0;
+}
+
+#personal, #bio, #contact, #projects{
+  background-color: rgb(210, 178, 183);
+  padding: 12px;
+  font-family: "EB Garamond";
+  line-height: 20px;
+  margin: 12px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 15px;
+}
+
+#personal{
+  text-align: center;
+}
+
+
+#contact{
+  text-align: center;
+}
+
+#projects{
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(46,48,50);
+  text-align: center;
+  opacity: .8;
+  font-size: 32px;
+  font-family: "EB Garamond";
+  font-variant: small-caps;
+  text-decoration: underline;
+  line-height: 35px;
+}
+
+.nobullets{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 992px){
+  h3{
+    font-size: 20px;
+  }
+
+  p{
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  h3{
+    font-size: 22px;
+  }
+
+  p{
+    font-size:18x;
+  }
+}
